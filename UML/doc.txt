@@ -1,0 +1,73 @@
+Използвани технологии:
+    Java
+    Spring
+    Hibernate
+    MySQL
+    HTML
+    JavaScript
+    Ajax
+    Apache Tomcat 8
+    Intellij Idea
+
+
+==========================================================================================
+Моделите са 2 Company и CompanyIndexes,като Company e super class CompanyIndexes sub class.
+
+интерфейси
+    AbstractDao
+    CompanyCountryDao
+    CompanyDao
+    CompanyIndexesDao
+    CompanyIndustryDao
+    CompanyRegionDao
+--------------------------
+
+имплементаците на дао интерфейсите и съответните заявки в тях
+    CompanyCountryDaoImpl
+    CompanyDaoImpl
+    CompanyIndexesDaoImpl
+    CompanyIndustryDaoImpl
+    CompanyRegionDaoImpl
+----------------------------
+
+абстрактения клас AbstractDao чрез който се взима sessionFactoriy
+
+---------------------------
+
+сървис интерфейси
+    CompanyCountryService
+    CompanyIndexesService
+    CompanyIndustryService
+    CompanyRegionService
+    CompanyService
+-----------------------------
+
+сървис имплементаците правят връзка с дао имплементаците чрез дао интерфейсите
+    CompanyCountryServiceImpl
+    CompanyIndexesServiceImpl
+    CompanyIndustryServiceImpl
+    CompanyRegionServiceImpl
+    CompanyServiceImpl
+--------------------------------
+
+контролерите които слушат на съответното url и се извиква подходящия сървис
+    CompanyController
+    CompanyCountryController
+    CompanyIndustryController
+    CompanyRegionController
+---------------------------------
+
+CompanyController има 2 метода
+        getCompanyfromFile() - чете от txt файл от който парсва и записва в таблицата companies
+
+        getCompanyContents(String companySymbol) - с yahoo finance api
+         подава борсов индекс на съответната компания api-то връща JSON
+         парсва се и се връща като резултат от тип CompanyIndexes
+
+--------------------------------
+
+UML диаграма с връзките между класовете.
+
+---------------------------------
+
+ В папката database има sql файлове с ddl команди ,за да може да се сиздаде базата на проекта и да се да се инсертне датата в нея.

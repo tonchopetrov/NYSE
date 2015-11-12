@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>New York Stock Exchange</title>
+    <style type="text/css">
+
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+            max-height: 100%;
+            font-family: Sans-serif;
+            line-height: 1.5em;
+        }
+
+        #header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            background: #000000;
+        }
+
+        #nav {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            bottom: 0;
+            width: 230px;
+            overflow: auto;
+            background: white;
+        }
+
+        #logo {
+            padding: 10px;
+            margin: auto;
+        }
+
+        main {
+            position: fixed;
+            top: 100px;
+            left: 230px;
+            right: 0;
+            bottom: 0;
+            overflow: auto;
+            background: #FFFFFF;
+        }
+
+        .innertube {
+            margin: 15px;
+        }
+
+        p {
+            color: #555;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        h2 {
+            color: #000000;
+
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        table ,tbody{
+            text-decoration-style: solid;
+            background-color: #efefef;
+        }
+        table,thead{
+            background-color: #BBBBBB;
+        }
+
+        * html body {
+            padding: 100px 0 0 230px;
+        }
+
+        * html main {
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            if (!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload();
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+<header id="header">
+    <div id="logo">
+        <!--<h1 style="color: #000000">New York Stock Exchange</h1>-->
+        <img src="image/NYSE-1-2.jpg" width=60% height="100" alt="logo" style=" width: 100%;"/>
+    </div>
+
+</header>
+<!--div display none scriva -->
+<!--div display block pokazva-->
+<main>
+    <div class="innertube">
+        <h1>NYSE Companies</h1>
+
+        <p id="region" align="left"></p>
+        <p id="industry" align="left"></p>
+        <p id="display" align="left"></p>
+        <div id="europeCountriesDiv" name="europeCountriesDiv" style="display: none" align="left">
+            <select id="euroCountryValue" name="euroCountryValue">
+                <option selected>All Countries</option>
+                <option>Belgium</option>
+                <option>Finland</option>
+                <option>France</option>
+                <option>Germany</option>
+                <option>Greece</option>
+                <option>Ireland</option>
+                <option>Italy</option>
+                <option>Luxembourg</option>
+                <option>Netherlands</option>
+                <option>Spain</option>
+                <option>Switzerland</option>
+                <option>United Kingdom</option>
+            </select>
+        </div>
+        <div id="africaCountriesDiv" name="africaCountriesDiv" style="display: none" align="left">
+            <select id="africaCountryValue" name="africaCountryValue">
+                <option selected>All Countries</option>
+                <option>South Africa</option>
+            </select>
+        </div>
+        <div id="asiaCountriesDiv" name="asiaCountriesDiv"  style="display: none" align="left">
+            <select id="asiaCountryValue" name="asiaCountryValue">
+                <option selected>All Countries</option>
+                <option>China</option>
+                <option>Hong Kong</option>
+                <option>Japan</option>
+                <option>South Korea</option>
+            </select>
+        </div>
+
+        <div id="australiaAndSouthPacificCountriesDiv" name="australiaAndSouthPacificCountriesDiv"style="display: none"
+             align="left">
+            <select id="australiaAndSouthPacificCountryValue" name="australiaAndSouthPacificCountryValue">
+                <option selected>All Countries</option>
+                <option>Australia</option>
+                <option>Marshall islands</option>
+                <option>New Zealand</option>
+                <option>Papua New Guinea</option>
+            </select>
+        </div>
+
+        <div id="americaAndCaribbeanCountriesDiv" name="americaAndCaribbeanCountriesDiv"style="display: none"
+             align="left">
+            <select id="americaAndCaribbeanCountryValue" name="americaAndCaribbeanCountryValue">
+                <option selected>All Countries</option>
+                <option>Bermuda</option>
+                <option>Puerto Rico</option>
+                <option>Cayman Islands</option>
+                <option>British Virgin Islands</option>
+            </select>
+        </div>
+
+        <div id="southAmericaCountriesDiv" name="southAmericaCountriesDiv"style="display: none"
+            align="left">
+            <select id="southAmericaCountryValue" name="southAmericaCountryValue">
+                <option selected>All Countries</option>
+                <option>Argentina</option>
+                <option>Brazil</option>
+            </select>
+         </div>
+
+        <div id="middleEastCountriesDiv" name="middleEastCountriesDiv"style="display: none"
+             align="left">
+            <select id="middleEastCountryValue" name="middleEastCountryValue">
+                <option selected>All Countries</option>
+                <option>Israel</option>
+            </select>
+        </div>
+
+        <div id="northAmericaCountriesDiv" name="northAmericaCountriesDiv"style="display: none"
+             align="left">
+            <select id="northAmericaCountryValue" name="northAmericaCountryValue">
+                <option selected>All Countries</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+                <option>United States</option>
+            </select>
+        </div>
+
+
+    <p id="countCompanies" align="right" style="color:#f20000;"></p>
+    <table id="companiesTable" width="100%">
+        <thead>
+        <tr>
+            <th>№</th>
+            <th>Name</th>
+            <th>Symbol</th>
+            <th>Market Cap</th>
+            <th>IPO Year</th>
+            <th>Industry</th>
+            <th>Sector</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    </div>
+</main>
+
+<nav id="nav">
+    <h1>Filters</h1>
+
+    <div class="innertube">
+        <!--<h2>Exchange</h2>-->
+        <!--<ul>-->
+        <!--<li><a href="#">NYSE</a></li>-->
+        <!--<li><a href="javascript:void(0)">NASDAQ</a></li>-->
+        <!--<li><a href="javascript:void(0)">AMEX</a></li>-->
+        <!--</ul>-->
+        <h2>Region</h2>
+        <ul>
+            <li id="africa"><a href="#">Africa</a></li>
+            <li id="asia"><a href="#">Asia</a></li>
+            <li id="australiaAndSouthPacific"><a href="#">Australia and South Pacific</a></li>
+            <li id="americaAndCaribbean"><a href="#">Central America and Caribbean</a></li>
+            <li id="europe"><a href="#">Europe</a></li>
+            <li id="southAmerica"><a href="#">South America</a></li>
+            <li id="middleEast"><a href="#">Middle East</a></li>
+            <li id="nortAmerica"><a href="#">North America</a></li>
+        </ul>
+        <h2>Industry</h2>
+        <ul>
+            <li id="basicIndustries"><a href="#">Basic Industries</a></li>
+            <li id="capitalGoods"><a href="#">Capital Goods</a></li>
+            <li id="consumerDurables"><a href="#">Consumer Durables</a></li>
+            <li id="consumerNonDur"><a href="#">Consumer Non-Dur</a></li>
+            <li id="consumerService"><a href="#">Consumer Services</a></li>
+            <li id="energy"><a href="#">Energy</a></li>
+            <li id="finance"><a href="#">Finance</a></li>
+            <li id="healthCare"><a href="#">Health Care</a></li>
+            <li id="miscellaneous"><a href="#">Miscellaneous</a></li>
+            <li id="publicUtilities"><a href="#">Public Utilities</a></li>
+            <li id="technology"><a href="#">Technology</a></li>
+            <li id="transportation"><a href="#">Transportation</a></li>
+        </ul>
+    </div>
+</nav>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/js/lib/jquery.js"></script>
+<script src="/js/companiesByTown.js"></script>
+<script src="/js/companiesByIndustry.js"></script>
+<script src="/js/companiesByRegion.js"></script>
+<script src="/js/company.js"></script>
+
+<script language="JavaScript">
+
+    var hideAndShowDivs;
+    hideAndShowDivs = function (div) {
+        var divs = ["africaCountriesDiv", 'asiaCountriesDiv', 'australiaAndSouthPacificCountriesDiv',
+            "americaAndCaribbeanCountriesDiv", "europeCountriesDiv", "southAmericaCountriesDiv",
+            "middleEastCountriesDiv", "northAmericaCountriesDiv"];
+        for (var i = 0; i < divs.length; i++) {
+            if (div == divs[i]) {
+                $("#"+div).show();
+            } else {
+                $("#"+divs[i]).hide();
+            }
+        }
+    };
+    var fillTable;
+    fillTable = function(table,data){
+        var company;
+        for(var i = 0; i < data.length;i++){
+            window.company = data[i];
+            table.append(
+                    "<tr>"
+                    +"<td width='3%'>"+(1+i)+"</td>"
+                    +"<td width='30%'>"+data[i].name+"</td>"
+                    +"<td width='5%' onclick='getCompany(window.company)'><a href='javascript: void(0)'>"+data[i].symbol+"</a></td>"
+                    +"<td width='10%'>"+data[i].marketCap+"</td>"
+                    +"<td width='5%'>"+data[i].ipoYear+"</td>"
+                    +"<td width='20%'>"+data[i].industry+"</td>"
+                    +"<td width='20%'>"+data[i].sector+"</td>"
+                    +"</tr>");
+
+        }
+    };
+    var emptyCompanyTable;
+    emptyCompanyTable = function clearTable(){
+        $('#companiesTable tr').not(function(){if ($(this).has('th').length){return true}}).remove();
+    };
+
+
+</script>
+</body>
+</html>

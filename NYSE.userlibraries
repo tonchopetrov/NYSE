@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.jboss.logging:jboss-logging-annotations:1.2.0.Beta1">
+    <archive path="C:/Users/TT/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-web:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.javassist:javassist:3.18.1-GA">
+    <archive path="C:/Users/TT/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar" />
+  </library>
+  <library name="Maven: org.json:json:20141113">
+    <archive path="C:/Users/TT/.m2/repository/org/json/json/20141113/json-20141113.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-beans:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest-core:1.3">
+    <archive path="C:/Users/TT/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+  </library>
+  <library name="Maven: dom4j:dom4j:1.6.1">
+    <archive path="C:/Users/TT/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.1">
+    <archive path="C:/Users/TT/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.1/jackson-annotations-2.6.1.jar" />
+  </library>
+  <library name="Maven: javax.servlet:javax.servlet-api:3.1.0">
+    <archive path="C:/Users/TT/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" />
+  </library>
+  <library name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final">
+    <archive path="C:/Users/TT/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+  </library>
+  <library name="Maven: javax.servlet:servlet-api:2.5">
+    <archive path="C:/Users/TT/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: junit:junit:4.12">
+    <archive path="C:/Users/TT/.m2/repository/junit/junit/4.12/junit-4.12.jar" />
+  </library>
+  <library name="Maven: aopalliance:aopalliance:1.0">
+    <archive path="C:/Users/TT/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-orm:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-orm/4.1.6.RELEASE/spring-orm-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.fasterxml:jackson-module-json-org:0.9.1">
+    <archive path="C:/Users/TT/.m2/repository/com/fasterxml/jackson-module-json-org/0.9.1/jackson-module-json-org-0.9.1.jar" />
+  </library>
+  <library name="Maven: org.aspectj:aspectjweaver:1.8.3">
+    <archive path="C:/Users/TT/.m2/repository/org/aspectj/aspectjweaver/1.8.3/aspectjweaver-1.8.3.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-tx:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-tx/4.1.6.RELEASE/spring-tx-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.3">
+    <archive path="C:/Users/TT/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-webmvc/4.1.6.RELEASE/spring-webmvc-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: commons-logging:commons-logging:1.2">
+    <archive path="C:/Users/TT/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.3">
+    <archive path="C:/Users/TT/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar" />
+  </library>
+  <library name="Maven: net.sf.ehcache:ehcache-core:2.4.3">
+    <archive path="C:/Users/TT/.m2/repository/net/sf/ehcache/ehcache-core/2.4.3/ehcache-core-2.4.3.jar" />
+  </library>
+  <library name="Maven: org.webjars:angularjs:1.1.1">
+    <archive path="C:/Users/TT/.m2/repository/org/webjars/angularjs/1.1.1/angularjs-1.1.1.jar" />
+  </library>
+  <library name="Maven: org.jboss.logging:jboss-logging:3.1.3.GA">
+    <archive path="C:/Users/TT/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar" />
+  </library>
+  <library name="Maven: commons-logging:commons-logging-api:1.1">
+    <archive path="C:/Users/TT/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar" />
+  </library>
+  <library name="Maven: net.sf.ehcache:ehcache:2.10.0">
+    <archive path="C:/Users/TT/.m2/repository/net/sf/ehcache/ehcache/2.10.0/ehcache-2.10.0.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-core:4.3.10.Final">
+    <archive path="C:/Users/TT/.m2/repository/org/hibernate/hibernate-core/4.3.10.Final/hibernate-core-4.3.10.Final.jar" />
+  </library>
+  <library name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.5.Final">
+    <archive path="C:/Users/TT/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar" />
+  </library>
+  <library name="Maven: org.jboss:jandex:1.1.0.Final">
+    <archive path="C:/Users/TT/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar" />
+  </library>
+  <library name="Maven: com.google.code.gson:gson:2.3.1">
+    <archive path="C:/Users/TT/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar" />
+  </library>
+  <library name="Maven: antlr:antlr:2.7.7">
+    <archive path="C:/Users/TT/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-dbcp2:2.1">
+    <archive path="C:/Users/TT/.m2/repository/org/apache/commons/commons-dbcp2/2.1/commons-dbcp2-2.1.jar" />
+  </library>
+  <library name="Maven: mysql:mysql-connector-java:5.1.35">
+    <archive path="C:/Users/TT/.m2/repository/mysql/mysql-connector-java/5.1.35/mysql-connector-java-5.1.35.jar" />
+  </library>
+  <library name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.7.4">
+    <archive path="C:/Users/TT/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.7.4/jackson-mapper-asl-1.7.4.jar" />
+  </library>
+  <library name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.0.Final">
+    <archive path="C:/Users/TT/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" />
+  </library>
+  <library name="Maven: jstl:jstl:1.2">
+    <archive path="C:/Users/TT/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar" />
+  </library>
+  <library name="Maven: xml-apis:xml-apis:1.0.b2">
+    <archive path="C:/Users/TT/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar" />
+  </library>
+  <library name="Maven: org.codehaus.jackson:jackson-core-asl:1.7.4">
+    <archive path="C:/Users/TT/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.7.4/jackson-core-asl-1.7.4.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:1.7.7">
+    <archive path="C:/Users/TT/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-ehcache:4.3.10.Final">
+    <archive path="C:/Users/TT/.m2/repository/org/hibernate/hibernate-ehcache/4.3.10.Final/hibernate-ehcache-4.3.10.Final.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jdbc:4.1.6.RELEASE">
+    <archive path="C:/Users/TT/.m2/repository/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: javax.servlet.jsp:jsp-api:2.1">
+    <archive path="C:/Users/TT/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-pool2:2.3">
+    <archive path="C:/Users/TT/.m2/repository/org/apache/commons/commons-pool2/2.3/commons-pool2-2.3.jar" />
+  </library>
+  <library name="angular">
+    <archive path="C:/Users/TT/.IntelliJIdea14/system/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.3.15_angular.js" />
+  </library>
+  <library name="Apache Commons" />
+  <library name="Hibernate" />
+  <library name="jackson-databind-2.4.2">
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Jackson/jackson-databind-2.4.2.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Jackson/jackson-databind-2.2.2.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Jackson/jackson-core-2.4.2.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Jackson/jackson-core-2.2.2.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Jackson/jackson-annotations-2.4.2.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Jackson/jackson-annotations-2.2.2.jar" />
+  </library>
+  <library name="jQuery UI-1.10.2">
+    <archive path="C:/Users/TT/.IntelliJIdea14/system/extLibs/http_ajax.googleapis.com_ajax_libs_jqueryui_1.10.2_jquery-ui.js" />
+  </library>
+  <library name="jQuery-2.0.0">
+    <archive path="C:/Users/TT/.IntelliJIdea14/system/extLibs/http_code.jquery.com_jquery-2.0.0.js" />
+  </library>
+  <library name="mysql-connector-java-5.1.24-bin">
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/MySQL Java tutorial/myslq connerctorJ/mysql-connector-java-5.1.24-bin.jar" />
+  </library>
+  <library name="org.webjars:angularjs:1.1.1">
+    <archive path="C:/Users/TT/.m2/repository/org/webjars/angularjs/1.1.1/angularjs-1.1.1.jar" />
+  </library>
+  <library name="Spring 4.1.1">
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/aopalliance-1.0.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/commons-logging-1.1.3.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-aop-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-aop-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-aspects-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-beans-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-beans-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-context-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-context-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-context-support-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-core-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-core-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-expression-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-expression-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-instrument-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-instrument-tomcat-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-jdbc-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-jms-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-messaging-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-orm-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-oxm-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-test-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-tx-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-web-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-webmvc-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-webmvc-portlet-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-websocket-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/aopalliance-1.0.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/commons-logging-1.1.3.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-tx-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-aop-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-aop-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-jms-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-orm-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-oxm-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-web-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-web-4.1.4.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-core-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-core-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-jdbc-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-test-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-beans-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-beans-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-webmvc-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-aspects-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-context-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-context-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-messaging-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-websocket-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-expression-4.1.1.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-expression-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-instrument-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-webmvc-portlet-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-context-support-4.1.2.RELEASE.jar" />
+    <archive path="E:/TT/psihotvoreniq/knigi/programirane/Spring/Spring 4.1.1.RELEASE/spring-instrument-tomcat-4.1.2.RELEASE.jar" />
+  </library>
+</eclipse-userlibraries>
+

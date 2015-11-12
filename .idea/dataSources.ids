@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - exchange@localhost" uuid="274c8423-20e8-47ae-a733-55a60fe5a860">
+    <database-info product="MySQL" version="5.6.21-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="exchange"/>
+    <table name="companies" schema="" catalog="exchange" type="TABLE">
+      <column name="symbol" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="companyId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="companyIndexId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="country" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="sector" sqlType="VARCHAR" precision="55" scale="0" nullable="true" jdbcType="12"/>
+      <column name="lastScale" sqlType="VARCHAR" precision="55" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ipoYear" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="66" scale="0" nullable="true" jdbcType="12"/>
+      <column name="region" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="industry" sqlType="VARCHAR" precision="111" scale="0" nullable="true" jdbcType="12"/>
+      <column name="marketCap" sqlType="VARCHAR" precision="55" scale="0" nullable="true" jdbcType="12"/>
+      <column name="adrTso" sqlType="VARCHAR" precision="44" scale="0" nullable="true" jdbcType="12"/>
+      <column name="exchange" sqlType="VARCHAR" precision="22" scale="0" nullable="true" jdbcType="12"/>
+      <column name="sumaryQuote" sqlType="VARCHAR" precision="222" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="companyId"/>
+      <foreign-key name="companies_ibfk_1" columns="companyIndexId" ref-table="companies_indexes" ref-schema="" ref-catalog="exchange" ref-columns="companyIndexId" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="companyIndexId_2" unique="true" columns="companyIndexId"/>
+    </table>
+    <table name="companies_indexes" schema="" catalog="exchange" type="TABLE">
+      <column name="companyIndexId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="companyId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Ask" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CompanyName" sqlType="VARCHAR" precision="55" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ExchangeNickName" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="AskRealTime" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="Bid" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="BidRealTime" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="BookValue" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="ChangePrecentChange" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="Commission" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="Currency" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ChangeRealTime" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="AfterHoursChangeRealTime" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="DividentShare" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="LastTradeDate" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <column name="TradeDate" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <column name="EarningShare" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="EPSEstatimateCurrentYear" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="EPSEstatimateNextYear" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="EPSEstatimateNextQuarter" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="DaysLow" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="DaysHigh" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="YearLow" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="YearHigh" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="HoldingsGainPercent" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="AnnualizedGain" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="HoldingsGain" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="HoldingsGainPercentRealTime" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="HoldingsGainRealTime" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="MoreInfo" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="OrderBookRealTime" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="MarketCapitalization" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="MarketCapRealTime" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="EBITDA" sqlType="VARCHAR" precision="44" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ChangeFormYearLow" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="PercentChangeFormYearLow" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="PercebtChangeFromYearHigh" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="LastTradeRealTimeWithTime" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="ChangePercentRealTime" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="ChangeFromYearHigh" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="LastTradeWithTime" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="LastTradePriceOnly" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="HighLimit" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="LowLimit" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="DayRangeMin" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="DayRangeMax" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="DayRangeRealTime" sqlType="VARCHAR" precision="44" scale="0" nullable="true" jdbcType="12"/>
+      <column name="FiftyDayMovingAverage" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="TwoHoundreddayMovingAverage" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="ChangeFromTwoHoundreddayMovingAverage" sqlType="VARCHAR" precision="44" scale="0" nullable="true" jdbcType="12"/>
+      <column name="PercentChangeFormFiftydayMovingAverage" sqlType="VARCHAR" precision="44" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Notes" sqlType="VARCHAR" precision="44" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Open" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="PreviosClosed" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="PricePaid" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="ChangeningPercent" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="PriceSales" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="PriceBook" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="ExDividenDate" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="PERation" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="DividenPayDate" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="PeRationRealTime" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="PEGRation" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="PriceEPSEstamateCurrentYear" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="Symbol" sqlType="VARCHAR" precision="22" scale="0" nullable="true" jdbcType="12"/>
+      <column name="SharesOwned" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="SortRation" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="LastTradeTime" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="TickerTrend" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="OneyrTargetPrice" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="HoldingValues" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="HoldingsValueRealTime" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="YearRangeMin" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="YearRangeMax" sqlType="DOUBLE" precision="22" scale="0" nullable="true" jdbcType="8"/>
+      <column name="DaysValueChnage" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="DaysValueChangeRealTime" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="StockExchange" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="PercentChange" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Changee" sqlType="VARCHAR" precision="33" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="companyId"/>
+      <exported-key name="companies_ibfk_1" table="companies" schema="" catalog="exchange" columns="companyIndexId"/>
+      <index name="companyIndexId" unique="true" columns="companyIndexId"/>
+    </table>
+  </data-source>
+</component>
